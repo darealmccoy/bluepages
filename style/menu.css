@@ -38,3 +38,20 @@
   background-color: dimgray;
   color: dodgerblue;
 }
+#nav-link {
+	margin-right: 0px;
+	margin-top: 0px;
+}
+#nav-link a:link, a:visited {
+  background-color: dodgerblue;
+  color: dimgray;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:260px;
+}
+#nav-link a:hover, a:active {
+  background-color: dimgray;
+  color: dodgerblue;
+}

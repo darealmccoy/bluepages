@@ -47,10 +47,12 @@
 #link a:hover, a:active {
   background-color: dimgray;
   color: dodgerblue;
+  font-weight: bold;
 }
 .highlight {
 		background-color: yellow;
 }
 footer {
 		margin-left: 20px;
+		color: maroon;
 }
