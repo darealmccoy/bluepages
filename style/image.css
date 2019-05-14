@@ -1,0 +1,15 @@
+img.resize {
+		width: 222px;
+		height: 296px;
+		max-width: 33%;
+		max-height: 33%;
+}
+img.resize2 {
+		width: 296px;
+		height: 296px;
+}
+img.w3 {
+		border: 0;
+		width: 88px;
+		height: 31px;
+}

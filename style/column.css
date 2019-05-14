@@ -1,0 +1,27 @@
+.column25 {
+		float: left;
+		width: 25%;
+}
+.column33 {
+		float: left;
+		width: 33%;
+		text-align: center;
+		
+}
+.column50 {
+		float: left;
+		width: 50%;
+}
+.column66 {
+		float: left;
+		width: 66%;
+}
+.column75 {
+		float: left;
+		width: 75%;
+}
+.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}

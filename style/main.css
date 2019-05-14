@@ -4,72 +4,36 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	color: maroon;
-	background-color: gainsboro;
+	color: darkgoldenrod;
+	background-color: dimgray;
 }
 
 h1 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 	font-weight: bolder;
 	font-style: normal;
-	color: maroon;
+	color: dodgerblue;
 	font-size: 96px;
 	text-align: center;
+}
+h2 {
+	color:dodgerblue;
+	font-weight:bold;
+	text-align:left;
+	margin-left: 10px;
+	background-color: dimgray;
+}
+p {
+	margin-left: 20px;
+	margin-right: 10px;
+	padding-left: 10px;
+
 }
 ul {
 	list-style: none;
 	padding: 0;
 }
-footer {
-		margin-left: 20px;
-}
-.paraleft {
-		text-align: left;
-}
-.paracenter {
-		text-align: center;
-}
-.pararight {
-		text-align: right;
-}
-.column25 {
-		float: left;
-		width: 25%;
-}
-.column33 {
-		float: left;
-		width: 33%;
-		text-align: center;
-		
-}
-.column50 {
-		float: left;
-		width: 50%;
-}
-.column66 {
-		float: left;
-		width: 66%;
-}
-.column75 {
-		float: left;
-		width: 75%;
-}
-.row:after {
-		content: "";
-		display: table;
-		clear: both;
-}
-img.resize {
-		width: 222px;
-		height: 296px;
-		max-width: 33%;
-		max-height: 33%;
-}
-img.resize2 {
-		width: 296px;
-		height: 296px;
-}
-#resume {
+#resume p{
 		color: navy;
 		background-color: white;
 }
@@ -101,84 +65,6 @@ img.resize2 {
 	max-height: 80%;
 	height: 140px;
 }
-#showlist {
-	text-align: left;
-	float:right;
-	left: 50%;	
-}
-#showlist li a {
-	text-decoration: none;
-	background-color: gainsboro;
-	color: navy;
-	display: inline-block;
-	padding: 0;
-	margin: 0;
-}
-#showlist li {
-	color: black;
-}
-#showlist h4 a {
-	color: maroon;
-	text-decoration:none;
-	
-}
-#navbar {
-	background-color: maroon;
-	overflow: hidden;
-	width: 100%;
-	position: fixed;
-	margin-top: 0;
-	top: 0px;
-}
-
-#navbar-container {
-	position: relative;
-	float: left;
-	left: 50%;
-	display: block;
-}
-
-#navbar-container ul {
-	position: relative;
-	float: left;
-	display: block;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	right: 50%;
-}
-#navbar-container ul li{
-	float: left;
-}
-#navbar-container li a:link, li a:visited {
-  background-color: maroon;
-  color: gainsboro;
-  padding: 20px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-#navbar-comtainer a:hover, li a:active {
-  background-color: gainsboro;
-  color: maroon;
-}
-#link {
-	margin-right: 15px;
-	margin-top: 15px;
-}
-#link a:link, a:visited {
-  background-color: maroon;
-  color: gainsboro;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width:260px;
-}
-#link a:hover, a:active {
-  background-color: gainsboro;
-  color: maroon;
-}
 .main {
   margin-top: 72px;
 }
@@ -187,7 +73,4 @@ img.resize2 {
 	text-decoration: none;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 60px;
-}
-p {
-	padding-left: 10px;
 }

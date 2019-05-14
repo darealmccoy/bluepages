@@ -1,0 +1,56 @@
+.paraleft {
+		text-align: left;
+}
+.paracenter {
+		text-align: center;
+}
+.pararight {
+		text-align: right;
+}
+.parajustify {
+		text-align: justify;
+}
+#showlist {
+	text-align: left;
+	float:right;
+	left: 50%;	
+}
+#showlist li a {
+	text-decoration: none;
+	background-color: ;
+	color: navy;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#showlist li {
+	color: black;
+}
+#showlist h4 a {
+	color: darkgoldenrod;
+	text-decoration:none;
+	
+}
+#link {
+	margin-right: 15px;
+	margin-top: 15px;
+}
+#link a:link, a:visited {
+  background-color: dodgerblue;
+  color: dimgray;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:260px;
+}
+#link a:hover, a:active {
+  background-color: dimgray;
+  color: dodgerblue;
+}
+.highlight {
+		background-color: yellow;
+}
+footer {
+		margin-left: 20px;
+}
