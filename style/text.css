@@ -18,7 +18,7 @@
 #showlist li a {
 	text-decoration: none;
 	background-color: ;
-	color: navy;
+	color: dodgerblue;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
@@ -37,7 +37,7 @@
 }
 #link a:link, a:visited {
   background-color: dodgerblue;
-  color: dimgray;
+  color: #272727;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
@@ -45,7 +45,7 @@
   width:260px;
 }
 #link a:hover, a:active {
-  background-color: dimgray;
+  background-color: #272727;
   color: dodgerblue;
   font-weight: bold;
 }

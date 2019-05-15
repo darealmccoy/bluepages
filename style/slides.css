@@ -1,0 +1,50 @@
+$("#slideshow > div").hide();
+ 
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  5000);
+jQuery.fn.center = function( parent ) {
+    parent = $( parent ? this.parent() : window );
+    
+    this.css({
+        "position": "absolute",
+        "top":  (((parent.height() - this.outerHeight()) / 2) + parent.scrollTop()  + "px"),
+        "left": (((parent.width()  - this.outerWidth())  / 2) + parent.scrollLeft() + "px")
+    });
+    return this;
+}
+jQuery.fn.setDivSize = function(extraHeight, extraWidth) {
+  var img = new Image();
+  img.src = this.children('img').attr('src');
+  //the extra height and width are to accommodate
+  //the text below the images.
+  this.height(img.height + extraHeight)
+      .width (img.width  + extraHeight);
+  return this;
+}
+$(function() { 
+  setTimeout(function(){
+    //display the first image
+    $('#slideshow > div:first')
+      .setDivSize(30, 40)
+      .center(false)
+      .fadeIn(1000);
+    
+    //loop through the remaining images
+    setInterval(function() {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .setDivSize(30,40)
+        .center(false)
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    },  5000);
+  }, 500 );
+});

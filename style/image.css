@@ -13,3 +13,37 @@ img.w3 {
 		width: 88px;
 		height: 31px;
 }
+#MB img{
+	max-width: 80%;
+	width: 200px;
+	max-height: 80%;
+	height: 200px;
+}
+#MB td {
+	text-align: center;
+	width: 250px;
+}
+.EAGLE {
+	max-width: 80%;
+	width: 256px;
+	max-height: 80%;
+	height: 165px;
+}
+.BADGE {
+	max-width: 80%;
+	width: 128px;
+	max-height: 80%;
+	height: 140px;
+}
+.car {
+	max-width: 80%;
+	width: 400px;
+	max-height: 80%;
+	height: 400px;
+}
+.carwide {
+	max-width: 80%;
+	width: 800px;
+	max-height: 80%;
+	height: 400px;
+}

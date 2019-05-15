@@ -5,7 +5,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	color: darkgoldenrod;
-	background-color: dimgray;
+	background-color: #272727;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
 	font-weight:bold;
 	text-align:left;
 	margin-left: 10px;
-	background-color: dimgray;
+	background-color: #272727;
 }
 p {
 	margin-left: 20px;
@@ -34,38 +34,14 @@ ul {
 	list-style: none;
 	padding: 0;
 }
-#resume p{
-		color: navy;
-		background-color: white;
-}
+
 #resume h2 {
 		color: maroon;
 }
 #resume p, ul{	
 		padding: 5px;
 }
-#MB img{
-	max-width: 80%;
-	width: 200px;
-	max-height: 80%;
-	height: 200px;
-}
-#MB td {
-	text-align: center;
-	width: 250px;
-}
-.EAGLE {
-	max-width: 80%;
-	width: 256px;
-	max-height: 80%;
-	height: 165px;
-}
-.BADGE {
-	max-width: 80%;
-	width: 128px;
-	max-height: 80%;
-	height: 140px;
-}
+
 .main {
   margin-top: 72px;
 }

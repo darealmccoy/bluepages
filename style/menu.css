@@ -28,14 +28,14 @@
 }
 #navbar-container li a:link, li a:visited {
   background-color: dodgerblue;
-  color: dimgray;
+  color: #272727;
   padding: 20px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 #navbar-comtainer a:hover, li a:active {
-  background-color: dimgray;
+  background-color: #272727;
   color: dodgerblue;
 }
 #nav-link {
@@ -44,7 +44,7 @@
 }
 #nav-link a:link, a:visited {
   background-color: dodgerblue;
-  color: dimgray;
+  color: #272727;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
@@ -52,6 +52,6 @@
   width:260px;
 }
 #nav-link a:hover, a:active {
-  background-color: dimgray;
+  background-color: #272727;
   color: dodgerblue;
 }
