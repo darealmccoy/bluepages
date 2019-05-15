@@ -30,6 +30,12 @@ p {
 	font-size: 20px;
 
 }
+a {
+	color: darkgoldenrod;
+}
+a:visited {
+	color: maroon;
+}
 ul {
 	list-style: none;
 	padding: 0;
