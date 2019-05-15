@@ -10,14 +10,16 @@
 	<link rel="stylesheet" type="text/css" href="../../style/menu.css" >
 	<link rel="stylesheet" type="text/css" href="../../style/image.css" >
 	<link rel="stylesheet" type="text/css" href="../../style/column.css" >
+	<link rel="stylesheet" type="text/css" href="../../style/slideshow.css" >
+	<link rel="stylesheet" type="text/css" href="../../style/gmap.css" >
 	<link rel="icon" type="image/png" href="../docs/iitlogo.jpg" />
 	<script src="../../js/time.js"></script>
 	<script src="../../js/noclick.js"></script>
-	
-	<link rel="icon" type="image/png" href="../docs/iitlogo.jpg" />
+	<script src="../../js/slideshow.js"></script>
+	<script src="../../js/slides.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body onLoad="showSlides(1)">
 	<nav id="navbar">
 		<div id="navbar-container">
 			<div id="nav-link">
@@ -39,24 +41,23 @@
 		</div>
 	</nav>
 	<div class="main">
-	<h1>
-		About Me
-	</h1>
-	<div class="row">
-		<div class="column50">
-			<div id="ClockDisplay" class="clock"></div>
-			..
+		<h1>
+			About Me
+		</h1>
+		<div class="row">
+			<div class="column50">
+				<div id="ClockDisplay" class="clock"></div>
+			</div>
+			<div class="column50">
+				<script src="../js/calendar.js"></script>
+			</div>
 		</div>
-		<div class="column50">
-			<script src="../js/calendar.js"></script>
-		</div>
-	</div>
-	<h2>
-		Shtuff about me
-	</h2>
-	<p>
-		So, I'm human, and I like Pi (Pie tastes better), this page isnt required and my code is no longer illegal! So Yay Me!
-	</p>
+		<h2>
+			Shtuff about me
+		</h2>
+		<p>
+			So, I'm human, and I like Pi (Pie tastes better), this page isnt required and my code is no longer illegal! So Yay Me!
+		</p>
 		<img
 		class="resize"
 		src="../docs/self/YOUNG_ME.jpg"
@@ -65,55 +66,92 @@
 		class="resize"
 		src="../docs/self/YOUTH_ME.jpg"
 		alt="justMe">
-		<img class="resize" src="../docs/giphy.gif">
-		<img src="../docs/FIREWORKS.jpg">
-	<a href="http://www.google.com/" target=main onmouseover="window.open
- ('http://www.google.com/');">HOVER FOR GOOGLE!</a>
- <div id="disqus_thread"></div>
-<script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
-     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
-     *  PLATFORM OR CMS.
-     *  
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
-     *  https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    
-    var disqus_config = function () {
-        // Replace PAGE_URL with your page's canonical URL variable
-        this.page.url = "darealmccoy.gihub.io/bluepages/files/page_4";  
-        
-        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        this.page.identifier ="bluepages"; 
-    };
-    
-    
-    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-        var d = document, s = d.createElement('script');
-        
-        // IMPORTANT: Replace EXAMPLE with your forum shortname!
-        s.src = 'https://kmac.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>
-    Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
-        comments powered by Disqus.
-    </a>
-</noscript>
- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=illinois%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-<div class="pararight">
-    <img class="w3"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-<a href="https://www.iubenda.com/privacy-policy/98016107" class="iubenda-black iubenda-embed iub-legal-only" title="Privacy Policy ">Privacy Policy</a>
+		<img class="resize" src="../docs/logo/giphy.gif">
+		
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 8</div>
+				<img src="../docs/chicago/skyline_0.jpg" style="width:100%" alt="hi">
+				<div class="text">Chicago Night Skyline</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 8</div>
+				<img src="../docs/chicago/skyline_1.jpg" style="width:100%" alt="hi">
+				<div class="text">Taken from Millenium Park</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 8</div>
+				<img src="../docs/chicago/skyline_2.jpg" style="width:100%" alt="hi">
+				<div class="text">Enhanced photo taken from Milllenium Park</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 8</div>
+				<img src="../docs/chicago/skyline_3.jpg" style="width:100%" alt="hi">
+				<div class="text">Photo Taken from 33rd and State</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 8</div>
+				<img src="../docs/chicago/skyline_4.jpg" style="width:100%" alt="hi">
+				<div class="text">Same Photo Taken in Black and White Filter</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 8</div>
+				<img src="../docs/chicago/skyline_5.jpg" style="width:100%" alt="hi">
+				<div class="text">Photoshopped photo to appear as night sky</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 8</div>
+				<img src="../docs/chicago/skyline_6.jpg" style="width:100%" alt="hi">
+				<div class="text">Color edited photo of Chicago skyline</div>
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 8</div>
+				<img src="../docs/chicago/fireworks.jpg" style="width:100%" alt="hi">
+				<div class="text">Fireworks!</div>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<div class="paracenter">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+		</div>
+		<div class="mapouter">
+			<div class="gmap_canvas">
+				<iframe 
+				width="600" 
+				height="500" 
+				id="gmap_canvas" 
+				src="https://maps.google.com/maps?q=illinois%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+				frameborder="0" 
+				scrolling="no" 
+				marginheight="0" 
+				marginwidth="0"></iframe>
+			</div>
+		</div>
+		<a href="http://www.google.com/" target=main onmouseover="window.open('http://www.google.com/');">
+			HOVER FOR GOOGLE!
+		</a>
+		<div class="pararight">
+			<img 
+			class="w3"
+			src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+			alt="Valid CSS!" />
+			<a href="https://www.iubenda.com/privacy-policy/98016107" 
+			class="iubenda-black iubenda-embed iub-legal-only" 
+			title="Privacy Policy ">
+				Privacy Policy
+			</a>
 <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+</div>
 <footer>
-	<p>Last updated <strong><em>13 May 2019</strong></em> &copy; Kyle P. McCoy || KMAC IDE</p>
+	<p>Last updated <strong><em>14 May 2019</strong></em> &copy; Kyle P. McCoy || KMAC IDE</p>
 </footer>
 </div></div>
 </body>
